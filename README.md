@@ -58,7 +58,7 @@ See [`INSTALL.md`](INSTALL.md) for full setup and usage instructions.
 
 ## Architecture
 
-`install.sh` wires up dependencies and loads seed records; after it runs the app has real data to show. The V codebase (6,001 files) is self-contained — no external services needed to evaluate it. Top-level layout: `app/`, `bootstrap/`, `config/`, `database/`, `public/`, `resources/`, `routes/`, `storage/`. Step-by-step setup guide: [`INSTALL.md`](INSTALL.md).
+`install.sh` wires up dependencies and loads seed records; after it runs the app has real data to show. The V codebase (5,990 files) is self-contained — no external services needed to evaluate it. Top-level layout: `app/`, `bootstrap/`, `config/`, `database/`, `public/`, `resources/`, `routes/`, `storage/`. Step-by-step setup guide: [`INSTALL.md`](INSTALL.md).
 
 ## FAQ
 
