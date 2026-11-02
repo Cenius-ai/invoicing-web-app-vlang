@@ -21,23 +21,6 @@ _Local clone? See [Quick start](#quick-start) below. cenius.ai is the zero-setup
 
 <img src=".github/media/shot-1.png" width="32%" alt="Invoicing Web App personal finance tracker screenshot 1"/> <img src=".github/media/shot-2.png" width="32%" alt="Invoicing Web App personal finance tracker screenshot 2"/> <img src=".github/media/shot-3.png" width="32%" alt="Invoicing Web App personal finance tracker screenshot 3"/>
 
-## Usage guide
-
-Start the development server (see [INSTALL.md](INSTALL.md)) and open `http://localhost:8000` in a browser.
-
-### Pages
-
-- **Dashboard** – shows summary counts (e.g., total invoices, paid/unpaid totals). Access via the navigation bar or `/`.
-- **Invoices** – lists all invoices with status, client name, and total. Click an invoice to view details, or use the "New Invoice" button to create one.
-- **Invoice Detail** – displays a client’s information, line items (description, quantity, unit price), subtotal, and grand total. Status can be changed if the invoice is editable.
-- **Create / Edit Invoice** – form with fields: client selection, line item addition (description, quantity, price), invoice status (draft, sent, paid, etc.).
-
-### Navigation
-
-A Blade‑powered navigation menu links to the Dashboard and Invoices list. The invoice detail page provides a back link to the list.
-
-_Full guide: [`USAGE.md`](USAGE.md)_
-
 ## Features
 
 - Dashboard with totals
@@ -50,15 +33,11 @@ _Full guide: [`USAGE.md`](USAGE.md)_
 
 ## Quick start
 
-```bash
-./install.sh   # installs dependencies + seeds demo data
-```
-
-See [`INSTALL.md`](INSTALL.md) for full setup and usage instructions.
+Clone the repo and follow the project's own docs (`README`/`install.sh` inside) to run locally.
 
 ## Architecture
 
-`install.sh` wires up dependencies and loads seed records; after it runs the app has real data to show. The V codebase (5,990 files) is self-contained — no external services needed to evaluate it. Top-level layout: `app/`, `bootstrap/`, `config/`, `database/`, `public/`, `resources/`, `routes/`, `storage/`. Step-by-step setup guide: [`INSTALL.md`](INSTALL.md).
+The V codebase is self-contained — no external services needed to evaluate it.
 
 ## FAQ
 
